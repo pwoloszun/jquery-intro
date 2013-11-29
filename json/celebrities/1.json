@@ -1,0 +1,7 @@
+{
+  "id": 1,
+  "name": "Michal Wisniewski",
+  "img": "images/mwisniewski.jpg",
+  "description": "M Wisniewski lorem ipsum ...",
+  "friends": ["Jacykow", "Batman"]
+}

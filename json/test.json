@@ -1,0 +1,9 @@
+{
+  "name": "Bob",
+  "img": "images/jacykow.jpg",
+  "age": 25,
+  "children": ["Kate", "Bob Jr"],
+  "wife": {
+    "name": "Cindy"
+  }
+}

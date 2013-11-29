@@ -1,0 +1,9 @@
+[
+  {
+    "id": 100,
+    "name": "Radwanska",
+    "img": "images/radwanska.jpg",
+    "description": "Radwanska lorem ipsum ...",
+    "friends": ["Batman"]
+  }
+]

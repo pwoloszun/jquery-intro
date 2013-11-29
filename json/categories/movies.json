@@ -1,0 +1,16 @@
+[
+  {
+    "id": 10,
+    "name": "Malaszynski",
+    "img": "images/malaszynski.jpg",
+    "description": "Malaszynski lorem ipsum ...",
+    "friends": []
+  },
+  {
+    "id": 20,
+    "name": "Brodzik",
+    "img": "images/brodzik.jpg",
+    "description": "Brodzik lorem ipsum ...",
+    "friends": ["Radwanska"]
+  }
+]
