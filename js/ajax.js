@@ -17,4 +17,22 @@ function htmlLoad() {
 }
 
 $(document).on("ready", function() {
+  //example ajax call
+  var dataToBeSent = {
+    name: "Bob",
+    age: 12
+  };
+  var request = $.ajax({
+    type: "POST", // default: "GET"
+    dataType: "json", // other: "html", "xml", "jsonp"
+    url: "/some/resource/on/server",
+    data: dataToBeSent
+  });
+  request.then(function(data) {
+    log("Succesfully finished", data);
+  });
+  request.error(function(error) {
+    log("Error occured", error);
+    throw error;
+  });
 });
